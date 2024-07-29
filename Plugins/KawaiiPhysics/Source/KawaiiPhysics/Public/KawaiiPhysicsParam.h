@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
-#include "CapsuleLimit.h"
+#include "AnimNode_KawaiiPhysics.h"
 #include "KawaiiPhysicsInParam.h"
 #include "KawaiiPhysicsParam.generated.h"
 
@@ -15,7 +15,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FName> SwitchConditionName;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
     TMap<FName, FCapsuleLimit> CapsuleCache;
     
     UKawaiiPhysicsParam();
