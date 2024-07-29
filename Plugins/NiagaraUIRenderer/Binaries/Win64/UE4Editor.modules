@@ -2,6 +2,7 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-		"NiagaraUIRenderer": "UE4Editor-NiagaraUIRenderer.dll"
+		"NiagaraUIRenderer": "UE4Editor-NiagaraUIRenderer.dll",
+		"NiagaraUIRendererEditor": "UE4Editor-NiagaraUIRendererEditor.dll"
 	}
 }

@@ -1,13 +1,20 @@
+﻿// Copyright 2021 - Michal Smoleň
+
 #pragma once
+
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "NiagaraUIActor.generated.h"
 
-UCLASS(Blueprintable)
-class ANiagaraUIActor : public AActor {
-    GENERATED_BODY()
+class UNiagaraSystem;
+class UNiagaraUIComponent;
+
+UCLASS()
+class ANiagaraUIActor : public AActor
+{
+	GENERATED_BODY()
+
 public:
-    ANiagaraUIActor(const FObjectInitializer& ObjectInitializer);
-
+	ANiagaraUIActor();
+	
+    class UNiagaraUIComponent* SpawnNewNiagaraUIComponent(UNiagaraSystem* NiagaraSystemTemplate, bool AutoActivate, bool ShowDebugSystem, bool TickWhenPaused);
 };
-
