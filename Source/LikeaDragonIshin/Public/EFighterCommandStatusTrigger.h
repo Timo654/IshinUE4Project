@@ -1,0 +1,48 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EFighterCommandStatusTrigger.generated.h"
+
+UENUM(BlueprintType)
+enum class EFighterCommandStatusTrigger : uint8 {
+    NONE,
+    HEAT,
+    NOT_HEAT,
+    RUN,
+    DOWN,
+    CAN_SEIZE,
+    HP_PINCH,
+    DOWN_AO,
+    DOWN_UTU,
+    HEAT_ZERO,
+    HEAT_MAX UMETA(Hidden),
+    ON_STAIR,
+    HEAVY,
+    BOUND,
+    WALL_DAMAGE,
+    PIYORI,
+    FROM_POCKET,
+    WALL_HIT,
+    DRUNK,
+    CAN_ROB_WEAPON,
+    CALL_ENEMY,
+    SYNC_FRONT,
+    SYNC_BACK,
+    STANDUP,
+    GUARD,
+    PROVOKE,
+    TABAKO,
+    BATTLE,
+    SPECIAL,
+    BULLET,
+    KAMAE,
+    KNUCKLES,
+    RUN2,
+    SHAKEOFF,
+    REVERSALTIME,
+    GUARDBREAK,
+    HADAKA,
+    HEAT2,
+    SHOT_CHARGED,
+    MAX,
+};
+

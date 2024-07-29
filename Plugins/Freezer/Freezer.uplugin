@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 7,
+	"VersionName": "1.3.2",
+	"FriendlyName": "Freezer",
+	"Description": "Allows you to lock the selection of actors and their movement",
+	"Category": "Other",
+	"CreatedBy": "Space Raccoon Game Studio",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/670c085be7d2470abf756507eaba50da",
+	"SupportURL": "support@space-raccoon.com",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true
+}

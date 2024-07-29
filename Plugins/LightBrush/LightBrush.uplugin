@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Light Brush",
+	"Description": "A super easy scene lighting/lookdev tool for artist",
+	"Category": "Code Plugins",
+	"CreatedBy": "Saeid Gholizade",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/saeid+gholizade?count=20&sortBy=effectiveDate&sortDir=DESC&start=0",
+	"DocsURL": "https://www.youtube.com/watch?v=VMDhN6Dmxc8",
+	"MarketplaceURL": "https://www.unrealengine.com/marketplace/en-US/product/75566cb303ee4d459bd175956f896dd6",
+	"SupportURL": "saeid.gholizade@gmail.com",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true
+}

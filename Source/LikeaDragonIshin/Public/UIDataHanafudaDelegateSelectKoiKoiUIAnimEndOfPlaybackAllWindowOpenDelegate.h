@@ -1,0 +1,6 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "UIDataHanafudaDelegateSelectKoiKoiUIAnimEndOfPlaybackAllWindowOpenDelegate.generated.h"
+
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUIDataHanafudaDelegateSelectKoiKoiUIAnimEndOfPlaybackAllWindowOpen);
+

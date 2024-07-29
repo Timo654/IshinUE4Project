@@ -1,0 +1,23 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ECHANGE_TARGET.generated.h"
+
+UENUM(BlueprintType)
+enum class ECHANGE_TARGET : uint8 {
+    RYOUMA_COSTUME,
+    RYOUMA_FACE,
+    COMMON_COSTUME,
+    HIJIKATA_COSTUME,
+    ITO_COSTUME,
+    OKITA_COSTUME,
+    NAGAKURA_COSTUME,
+    MATSUBARA_COSTUME,
+    TAKEDA_COSTUME,
+    INOUE_COSTUME,
+    TANI_COSTUME,
+    TODO_COSTUME,
+    SUZUKI_COSTUME,
+    HARADA_COSTUME,
+    NUM,
+};
+

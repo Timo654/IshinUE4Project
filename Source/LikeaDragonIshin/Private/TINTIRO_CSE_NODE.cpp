@@ -1,0 +1,5 @@
+#include "TINTIRO_CSE_NODE.h"
+
+FTINTIRO_CSE_NODE::FTINTIRO_CSE_NODE() {
+}
+

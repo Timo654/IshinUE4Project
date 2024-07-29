@@ -1,0 +1,34 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EUIDemeType.generated.h"
+
+UENUM(BlueprintType)
+enum class EUIDemeType : uint8 {
+    eTINTIRO_DEME_NONE,
+    eTINTIRO_DEME_SHONBEN,
+    eTINTIRO_ME_1 = eTINTIRO_DEME_SHONBEN,
+    eTINTIRO_ME_2,
+    eTINTIRO_ME_3,
+    eTINTIRO_ME_4,
+    eTINTIRO_ME_5,
+    eTINTIRO_ME_6,
+    eTINTIRO_DEME_KINOMI,
+    eTINTIRO_DEME_GUNONE,
+    eTINTIRO_DEME_MUSASHI,
+    eTINTIRO_DEME_1 = 11,
+    eTINTIRO_DEME_2,
+    eTINTIRO_DEME_3,
+    eTINTIRO_DEME_4,
+    eTINTIRO_DEME_5,
+    eTINTIRO_DEME_6,
+    eTINTIRO_ZORO_1 = 21,
+    eTINTIRO_ZORO_2,
+    eTINTIRO_ZORO_3,
+    eTINTIRO_ZORO_4,
+    eTINTIRO_ZORO_5,
+    eTINTIRO_ZORO_6,
+    eTINTIRO_DEME_HIHUMI,
+    eTINTIRO_DEME_SIGORO,
+    eTINTIRO_DEME_NUM,
+};
+

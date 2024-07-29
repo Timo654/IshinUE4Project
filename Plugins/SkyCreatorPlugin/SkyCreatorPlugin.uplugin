@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 7,
+	"VersionName": "1.10",
+	"FriendlyName": "Sky Creator",
+	"Description": "An extensive tool to control dynamic time of day and weather settings using realistic volumetric clouds and atmosphere.",
+	"Category": "Rendering",
+	"CreatedBy": "Dmitry Karpukhin",
+	"CreatedByURL": "com.epicgames.launcher://ue/marketplace/profile/Dmitry+Karpukhin",
+	"DocsURL": "https://dmkarpukhin.com/sky-creator-plugin/documentation/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b9aa540db8c54f7d928c61d3b30cb955",
+	"SupportURL": "mailto:skxdoom@gmail.com",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SkyCreatorPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Niagara"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		}
+	]
+}

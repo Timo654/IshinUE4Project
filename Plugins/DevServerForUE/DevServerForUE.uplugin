@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 10202,
+	"VersionName": "1.2.2",
+	"FriendlyName": "DevServerForUE",
+	"Description": "Provides http/websocket server functionality for development",
+	"Category": "Developer",
+	"CreatedBy": "devtech",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

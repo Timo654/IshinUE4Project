@@ -1,0 +1,6 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "UIDataHanafudaDelegatePossessionPointUIAnimEndOfPlaybackDelegate.generated.h"
+
+UDELEGATE(BlueprintCallable) DECLARE_DYNAMIC_MULTICAST_DELEGATE(FUIDataHanafudaDelegatePossessionPointUIAnimEndOfPlayback);
+

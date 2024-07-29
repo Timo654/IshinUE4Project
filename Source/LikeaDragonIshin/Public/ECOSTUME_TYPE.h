@@ -1,0 +1,29 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ECOSTUME_TYPE.generated.h"
+
+UENUM(BlueprintType)
+enum class ECOSTUME_TYPE : uint8 {
+    DEFAULT,
+    CUSTOM,
+    COSTUME_CASUAL,
+    COSTUME_FIRE,
+    COSTUME_GOLD,
+    COSTUME_FISH,
+    COSTUME_OUKA,
+    COSTUME_BLACK,
+    COSTUME_TOJOKAI,
+    COSTUME_BIJIN,
+    COSTUME_SUMOU,
+    COSTUME_SUSHI,
+    COSTUME_YUNOMI,
+    COSTUME_DRAGON,
+    COSTUME_MATSURI,
+    FACE_KIZU,
+    FACE_SHINOBI,
+    FACE_KABUKI,
+    FACE_CHICKEN,
+    FACE_KIRYU,
+    NUM,
+};
+
